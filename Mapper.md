@@ -13,13 +13,6 @@ local mapper = require('mapper')
 local block_id = mapper.blockMap['chand']
 
 --- do some operation with block_id
-
---- or you can also reference it with your own variable
-
-local seeds = mapper.seedMap
-local seed_id = seeds['chand']
-
---- do some operation with seed_id
 ```
 
 ## Methods
