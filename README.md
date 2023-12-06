@@ -11,9 +11,11 @@ if youre a beginner you will needed to know some basic stuff includes
 4. basic data structure ( map or tables in lua )
 
 ## Getting started
-download the mapper.lua file and paste or write this in your lua script
+download the mapper.lua file and paste or write this in at top of your lua script
 ```
 local mapper = require('mapper')
+
+... your code 
 ```
 
 what does this do is return a mapper module struct from the mapper.lua module
