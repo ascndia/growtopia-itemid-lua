@@ -13,6 +13,8 @@ if youre a beginner you will needed to know some basic stuff includes
 ## Getting started
 download the mapper.lua file and paste or write this in your lua script
 ```
-mapper = require('mapper')
+local mapper = require('mapper')
 ```
+
+what does this do is return a mapper module struct from the mapper.lua module
 
