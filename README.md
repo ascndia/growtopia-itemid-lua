@@ -19,3 +19,5 @@ local mapper = require('mapper')
 
 what does this do is return a [mapper](./Mapper.md) table / object from the [mapper.lua](./mapper.lua) module
 
+## Usage and More
+- [Mapper](./Mapper.md)
