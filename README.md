@@ -14,8 +14,6 @@ if youre a beginner you will needed to know some basic stuff includes
 download the mapper.lua file and paste or write this in at top of your lua script
 ```
 local mapper = require('mapper')
-
-... your code 
 ```
 
 what does this do is return a mapper module struct from the mapper.lua module
