@@ -7,7 +7,7 @@
 
 ### Example usage
 Bellow is illustration of how to get id of chandellier and chandellier seed which is preconfigured by default see documentation, if you want to add your own block and seed, read this
-```
+```lua
 local mapper = require('mapper')
 
 local block_id = mapper.blockMap['chand']
