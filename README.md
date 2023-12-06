@@ -13,7 +13,7 @@ if youre a beginner you will needed to know some basic stuff includes
 
 ## Getting started
 download the mapper.lua file and paste or write this in at top of your lua script
-```
+```lua
 local mapper = require('mapper')
 ```
 
