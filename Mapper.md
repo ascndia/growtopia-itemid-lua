@@ -17,7 +17,7 @@ local block_id = mapper.blockMap['chand']
 
 ## Methods
 ### getBlockId
-`getBlockId(string block_name)`
+`getBlockId(string key)`
 return block id ( string ) if exist and throw an error if no such block were found.
 a simplified interface based on [blockMap](#attributes)
 
@@ -29,7 +29,7 @@ local block_id = mapper.getBlockId('chand')
 ```
 
 ### getSeedId
-`getSeedId(string block_name)`
+`getSeedId(string key)`
 return seed id ( string ) if exist and throw an error if no such block were found.
 a simplified interface based on [seedMap](#attributes)
 
@@ -41,7 +41,7 @@ local seed_id = mapper.getSeedId('chand')
 ```
 
 ### getItemId
-`getItemId(string block_name, optional string type)`
+`getItemId(string key, optional string type)`
 return block or seed id ( string ) if exist and throw an error if no such block or seed were found.
 by default type is set to `block` but you can also set it to `seed` or `hybrid` 
 a simplified interface based on both [blockMap](#attributes) and [seedMap](#attributes)
