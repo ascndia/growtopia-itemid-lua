@@ -17,4 +17,4 @@ local block_id = mapper.blockMap['chand']
 
 ## Methods
 ### getBlockId
-a simplified interface for accessing [blockMap](Map<String, String>)
+a simplified interface for accessing [blockMap](#attributes)
