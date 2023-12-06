@@ -1,4 +1,4 @@
-# itemId retrieval library
+# Customizable library for retrieving growtopia items
 
 use this repository to quickly integrate your lua script for retrieving item id of growtopia items
 
