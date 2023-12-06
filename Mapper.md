@@ -20,6 +20,7 @@ local block_id = mapper.blockMap['chand']
 `getBlockId(string block_name)`
 return block id ( string ) if exist and throw an error if no such block were found.
 a simplified interface based on [blockMap](#attributes)
+
 **Example**
 ```lua
 local mapper = require('mapper')
@@ -31,6 +32,7 @@ local block_id = mapper.getBlockId('chand')
 `getSeedId(string block_name)`
 return seed id ( string ) if exist and throw an error if no such block were found.
 a simplified interface based on [seedMap](#attributes)
+
 **Example**
 ```lua
 local mapper = require('mapper')
@@ -43,6 +45,7 @@ local seed_id = mapper.getSeedId('chand')
 return block or seed id ( string ) if exist and throw an error if no such block or seed were found.
 by default type is set to `block` but you can also set it to `seed` or `hybrid` 
 a simplified interface based on both [blockMap](#attributes) and [seedMap](#attributes)
+
 **Example**
 ```lua
 local mapper = require('mapper')
@@ -52,6 +55,7 @@ local seed_id = mapper.getItemId('chand','seed') -- type is set to seed. so it w
 ```
 when using `hybrid` type, there is certain rule where all keys of both `blockMap` and `seedMap` must be unique to ensure uniqueness and smooth functionality.
 to handle this we used a mechanism to first search the `blockMap` and secondly the `seedMap`
+
 **Example**
 ```
 local mapper = require('mapper')
