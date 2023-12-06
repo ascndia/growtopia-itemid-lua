@@ -57,7 +57,7 @@ when using `hybrid` type, there is certain rule where all keys of both `blockMap
 to handle this we used a mechanism to first search the `blockMap` and secondly the `seedMap`
 
 **Example**
-```
+```lua
 local mapper = require('mapper')
 
 -- bad usage
